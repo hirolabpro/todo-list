@@ -1,0 +1,55 @@
+@import "~bootstrap/scss/bootstrap.scss";
+
+.app {
+  
+  text-align: center;
+  background-image: url("react.png");
+  height: 100vh;
+  padding: 30px;
+
+ .tittle {
+
+ color: white; 
+ font-family: "Lucida Handwriting",
+ }
+  
+
+}
+
+.todo-list {
+  background: gray;
+  border-radius: 4px;
+  max-width: 400px;
+  padding: 5px;
+  
+
+  
+  
+}
+
+.todo {
+  align-items: center;
+  background: white;
+  border-radius: 3px;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+  display: flex;
+  font-size: 12px;
+  justify-content: space-between;
+  margin-bottom: 6px;
+  padding: 3px 10px;
+  font-family: "Lucida Handwriting"
+}
+
+.input {
+
+width: 100%; 
+box-sizing: border-box;
+border: 0;
+border-radius: 4px;
+box-shadow: 4px;
+padding: 1rem;
+height: 2.25em;  
+margin-bottom: 25px; 
+font-family: "Lucida Handwriting"
+}
+
